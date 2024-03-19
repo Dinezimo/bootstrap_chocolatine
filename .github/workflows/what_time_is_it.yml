@@ -5,7 +5,7 @@ name: affiche heure
 on: [push]
 
 job:
-    basic-ubuntu-20:
-    runs-on: ubuntu-20.04
-    steps:
-        - run: date
+    check-bats-version:
+        runs-on: ubuntu-20.04
+        steps:
+            - run: date
