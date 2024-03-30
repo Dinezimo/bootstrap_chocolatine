@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  check-bats-version: "God for me"
+  show-me-shameless:
     runs-on: ubuntu-latest
     steps:
         - run: echo "la date est" && date
