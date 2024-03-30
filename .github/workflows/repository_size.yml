@@ -2,6 +2,9 @@ on: [push]
 
 jobs:
     repo-size:
-        - uses: actions/checkout
-        - run:  echo ${{github_base_ref}}
-        - run: du -skh --exclude=".git
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                fetch-depth: 0
+            - run: echo "la taille de ton repo est $GITHUB_REPOSITORY_SIZE bytes" && du -skh --exclude=".git
