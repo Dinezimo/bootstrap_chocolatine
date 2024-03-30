@@ -1,11 +1,7 @@
-name: date print
-
-run-name: ${{ github.actor }} is learning GitHub Actions
-
 on: [push]
 
 jobs:
-  check-bats-version:
+  check-bats-version: "God for me"
     runs-on: ubuntu-latest
     steps:
-        - run: date
+        - run: echo "la date est" && date
