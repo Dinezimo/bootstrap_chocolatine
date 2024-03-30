@@ -1,0 +1,6 @@
+on: [push]
+
+jobs:
+    - uses: actions/checkout
+    - run:  echo ${{github_base_ref}}
+    - run: du -skh --exclude=".git
