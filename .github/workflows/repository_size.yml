@@ -4,12 +4,11 @@ jobs:
   to_gitlab:
     runs-on: ubuntu-latest
     steps:
-      steps:
-        - uses: actions/checkout@v3
-          with:
-            fetch-depth: 0
-        - uses: yesolutions/mirror-action@master
-          with:
-            REMOTE: 'https://github.com/EpitechPromo2028/B-DOP-200-COT-2-1-bschocolatine-brouhane.boni-gomina.git'
-            GIT_USERNAME: Dinezimo
-            GIT_PASSWORD: 'Dinichou1234'
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: 'https://github.com/EpitechPromo2028/B-DOP-200-COT-2-1-bschocolatine-brouhane.boni-gomina.git'
+          GIT_USERNAME: Dinezimo
+          GIT_PASSWORD: 'Dinichou1234'
