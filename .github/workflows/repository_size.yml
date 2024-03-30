@@ -1,16 +1,15 @@
-on: [push]
+on: [push, delete]
 
 jobs:
-    repo-size:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v3
-              with:
-                fetch-depth: 0
-          - uses: pixta-dev/repository-mirroring-action@v1
-              with:
-                target_repo_url:
-                    git@gitlab.com:<Dinezimo>/<git@github.com:EpitechPromo2028/B-DOP-200-COT-2-1-bschocolatine-brouhane.boni-gomina.git>.git
-                ssh_private_key:
-                    ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
-          - run: echo "la taille de ton repo est $GITHUB_REPOSITORY_SIZE bytes" && du -skh --exclude=".git
+  to_gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      steps:
+        - uses: actions/checkout@v3
+          with:
+            fetch-depth: 0
+        - uses: yesolutions/mirror-action@master
+          with:
+            REMOTE: 'https://github.com/Dinezimo/bootstrap_chocolatine.git'
+            GIT_USERNAME: Dinezimo
+            GIT_PASSWORD: "Dinichou1234"
