@@ -5,7 +5,7 @@
 ** to get information in a file
 */
 
-#include "my.h"
+#include "../my.h"
 
 char **mem_alloc2(int nb_rows, int nb_cols)
 {

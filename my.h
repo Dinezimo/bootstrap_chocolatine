@@ -13,6 +13,8 @@
     #include <stdio.h>
     #include <string.h>
     #include <fcntl.h>
+    #include <criterion/criterion.h>
+    #include <criterion/redirect.h>
 
 char **get_map(char *str, char *f);
 int lines_nbr(char *buffer);
@@ -23,4 +25,5 @@ int error_map(char **map, int n);
 int error_case(int argc, char **argv);
 int error_case2(char *str, char *f);
 int check(char c, char *str);
+int my_strlen(char *str);
 #endif

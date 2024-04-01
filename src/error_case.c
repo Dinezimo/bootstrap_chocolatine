@@ -7,7 +7,8 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "my.h"
+#include "../my.h"
+
 int error_case1(char *str)
 {
     int i = 0;

@@ -4,7 +4,7 @@
 ** File description:
 ** to main
 */
-#include "my.h"
+#include "../my.h"
 
 int main(int ac, char **av)
 {

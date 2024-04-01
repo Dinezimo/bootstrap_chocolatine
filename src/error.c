@@ -4,7 +4,7 @@
 ** File description:
 ** to manage all erreor cases
 */
-#include "my.h"
+#include "../my.h"
 
 int error_buffer(char *str)
 {

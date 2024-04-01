@@ -4,7 +4,7 @@
 ** File description:
 ** tools that I use to parse
 */
-#include "my.h"
+#include "../my.h"
 
 int lines_nbr(char *buffer)
 {
