@@ -20,7 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: check_coding_style
-        run: check.sh $(pwd) $(pwd)
+        run: |
+        check.sh $(pwd) $(pwd)
+        file_size=$(stat -c%s "coding-style-reports.log")
+        if [ $file_size -gt 0 ]; then
+          file_content=$(cat coding-style-reports.log)
+          echo "::error::Contenu du fichier : $file_content"
+          exit 84
+        fi
            
   check_program_compilation:
     needs: [check_coding_style]
