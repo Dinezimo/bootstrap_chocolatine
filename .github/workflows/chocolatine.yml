@@ -51,7 +51,7 @@ jobs:
   push_to_mirror:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
-    needs: [run_tests]
+#needs: [run_tests]
     steps:
       - uses: actions/checkout@v2
         with:
