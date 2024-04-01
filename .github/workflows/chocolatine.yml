@@ -10,7 +10,7 @@ on:
 
 env:
   MIRROR_URL: "git@github.com:EpitechPromo2028/B-DOP-200-COT-2-1-chocolatine-brouhane.boni-gomina.git"
-  EXECUTABLES: "tester.sh,hello"
+  EXECUTABLES: "tester.sh,sandpile,hello"
 
 jobs:
   check_coding_style:
@@ -53,7 +53,7 @@ jobs:
   push_to_mirror:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
-    #needs: [run_tests]
+    needs: [run_tests]
     steps:
       - uses: actions/checkout@v3
         with:
