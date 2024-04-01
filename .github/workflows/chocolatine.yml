@@ -10,7 +10,7 @@ on:
 
 env:
   MIRROR_URL: "git@github.com:EpitechPromo2028/B-DOP-200-COT-2-1-chocolatine-brouhane.boni-gomina.git"
-  EXECUTABLES: "tester.sh,sandpile,hello"
+  EXECUTABLES: "tester.sh,hello"
 
 jobs:
   check_coding_style:
