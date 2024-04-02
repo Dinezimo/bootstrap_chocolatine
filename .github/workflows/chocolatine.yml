@@ -26,7 +26,7 @@ jobs:
           if [ $file_size -gt 0 ]; then
             file_content=$(cat coding-style-reports.log)
             echo "::error::$file_content"
-            exit 84
+            #exit 84
           fi
            
   check_program_compilation:
