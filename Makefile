@@ -13,13 +13,13 @@ SRC =		$(wildcard src/*.c)
 
 OBJ = $(SRC:.c=.o)
 
+all: $(NAME)
+
 tests_run:
 	gcc test.c -o unit_tests $(UNITEST) --coverage -lcriterion -lm
 	./unit_tests
 	gcovr --exclude unit_tests/ --branches
 	gcovr --exclude	unit_tests/
-
-all: $(NAME)
 
 $(NAME):	$(OBJ)
 	gcc -o $(NAME) $(SRC) -lm
