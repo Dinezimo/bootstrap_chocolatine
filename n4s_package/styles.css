@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Style pour les boutons */
+button {
+    padding: 10px 20px; /* Padding autour du texte */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Style pour les boutons de couleur */
+.button-color {
+    color: white; /* Couleur du texte */
+    background-color: #FF5733; /* Orange vif */
+}
+
+/* Style pour les boutons de couleur quand ils sont survolés */
+.button-color:hover {
+    background-color: #FF8C5A; /* Orange vif plus clair */
+}
+
+/* Style pour les boutons de couleur quand ils sont activés */
+.button-color:active {
+    background-color: #D35400; /* Orange vif plus foncé */
+}
+
+/* Style pour les boutons de challenges */
+.challenge-button {
+    color: white; /* Couleur du texte */
+    background-color: #4A90E2; /* Bleu électrique */
+}
+
+/* Style pour les boutons de challenges quand ils sont survolés */
+.challenge-button:hover {
+    background-color: #7DB9FF; /* Bleu électrique plus clair */
+}
+
+/* Style pour les boutons de challenges quand ils sont activés */
+.challenge-button:active {
+    background-color: #357EC7; /* Bleu électrique plus foncé */
+}

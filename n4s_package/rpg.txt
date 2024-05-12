@@ -1,0 +1,15 @@
+                                bienvenue au challenge fight the boss
+
+                Il s'agit d'une interface concus avec la csfml et représentant un fight entre des
+                samurais pour défendre leur honneur. Le programe une fois exécuté, renvoie des
+                informations sur le status(vie, action, capacité_actuelles, ...) de votre adversaire.
+                Vous devez donc développer une ia dont le but sera de vaincre l'ennemie en s'adaptant
+                aux différentes situations renvoyés par le boss et en le dépassant jusqu'a ce que
+                                                victoire s'en suive.
+
+                Les instructions sont des chaînes de charactères que vous devez écrire sur la sortie standart
+                et en retour, le programme vous ecrira toutes les infos à savoir sur l'entrée standart pour
+                                                    votre annalyse.
+
+                Une fois vore progranme compilé, importer le binaire dans le répertoire contenant l'application
+                                                puis cliquez sur "start Fighting"

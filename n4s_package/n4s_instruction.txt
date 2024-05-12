@@ -1,0 +1,37 @@
+                               Nous te souhaitons la bienvenue au challenge "Need4Speef" et te conseillons de mettre ta ceinture car ça va décoiffer.
+
+                               Ton objectif est d'implémenter une ia capable d'analyser les informations renvoyés par ton bolide et lui donner des 
+                                                        instructions en conséquence. Les informations seronts libellés cette manière:
+
+                                                            id:status:info:time:id_refered.
+                                                    Par exemple, on a 2:OK:Simulation running:No further informations                     
+                                                    Les difféentes instructions que tu puisse envoyer sont entre autre:
+
+                                                            START_SIMULATION
+                                                            - pour lancer la Simulation
+                                                            STOP_SIMULATION
+                                                            - pour stopper la Simulation
+                                                            CAR_FORWARD:float[0;1]
+                                                            - pour avancer à une vitesse estimé /1
+                                                            CAR_BACKWARDS:float[0;1]
+                                                            - Pour reculer à une vitesse estimé /1
+                                                            WHEELS_DIR:float[-1;1]
+                                                            - pour tourner d'un angle entre |-1, 1|
+                                                            GET_INFO_LIDAR
+                                                            - pour obtenir les informations sur les capteurs lidars du vehicule
+                                                            GET_CURRENT_SPEED
+                                                            - pour obtenir la vitesse actuelle
+                                                            GET_CURRENT_WHEELS
+                                                            - pour obtenir l'angle de tournure actuelle
+                                                            CYCLE_WAIT:int
+                                                            [0; INT_MAX]
+                                                            GET_CAR_SPEED_MAX
+                                                            - pour obtenir la vitesse max du bolide
+                                                            GET_CAR_SPEED_MIN
+                                                            - pour obtenir la vitesse max du bolide
+                                                            
+                              Toutes ces instuctions devront être écris sur la sortie standart et les retours de la simulation vous rerons passés en entrée
+                              standart. Une fois votre binare créé, lancez tappez "./coppeliaSim.sh", sélectionnez l'option open, allez dans n4_package/scenes/
+                              ,pour avoir accès à différents circuits sur lesquels vous porrais mettre votre ia à l'épreuve tapez start_racing
+
+                                                                  Bonne chance ! ! !

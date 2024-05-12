@@ -1,0 +1,10 @@
+                                        bienvenue au challenge playing SOKOBAN
+
+                        Il s'agit d'implementer une ia pour l'associer au jeu video Sokoban en ncurse
+                l' utilisateur devra creer un ia capable de de diriger le player represente par le caractere 'P'
+                          en utilisant le caracteres 'w'(HAUT), 's'(BAS), 'a'(GAUCHE), 'd'(DROIE)
+
+                Pour l' ia, il devra implementer des fonctions pour recuperer les informations issues de la simulation
+                et realiser le parsing
+                exemple de sortie: P: x,y;X: x,y;...;O: x,y;...
+                Son programme devra en voyer un entrer les indicateurs de direction au playeur ('w', 's, 'a', 'd')
