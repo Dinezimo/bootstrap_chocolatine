@@ -1,0 +1,15 @@
+Bienvenue a la version paint développe par  Brouhane BONI GOMINA et les scpécialists de la
+maison EPITECH. Le manuel d'utilisation ci fournis presente la guide complets d'utilisation
+mais sous forme textuel a défaut d'avoir des images...
+
+Des le lancement du logiciel, vous verrez dabord un espace blanc qui designe votre zone de
+dessin, ainsi que 3 icones:
+- File: comportant les options new pour ouvrir une nouvelle page, save pour sauvegarder
+votre travail et import pour importer une image;
+- Edit: comportant les options draw pour dessiner et erase pour gommer;
+- Help: ou vous pouvez constater l'outil login qui vous garanti un accès à votre compte
+et manual qui vous fournis un guide complet sur l'utilisation de l'appli.
+
+        Merci pour votre attention et agréable utilisation. . .
+
+                                                     Rédiger par Brouhane. . .
